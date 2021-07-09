@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './collection-item.styles.scss';
 
 const CollectionItem = ({ id, name, price, imageUrl }) => (
@@ -6,7 +7,7 @@ const CollectionItem = ({ id, name, price, imageUrl }) => (
     <div
       className='image'
       style={{
-        backgroundImage: `url(${imageUrl})`,
+        backgroundImage: `url(${imageUrl})`
       }}
     />
     <div className='collection-footer'>
